@@ -1,6 +1,7 @@
 {
   "name": "chekit",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "devDependencies": {
     "@etlevs/release-script-dep": "workspace:*"
