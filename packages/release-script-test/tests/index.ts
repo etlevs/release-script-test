@@ -1,9 +1,9 @@
 import { test } from 'uvu';
 import { equal } from 'uvu/assert';
-import { code } from '../src/index';
+import { cool } from '../src/index';
 
-test('code', () => {
-	equal(code, '');
+test('cool', () => {
+	equal(cool, '1');
 });
 
 test.run();
