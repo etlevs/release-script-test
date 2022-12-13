@@ -2,8 +2,8 @@
   "mode": "pre",
   "tag": "next",
   "initialVersions": {
-    "@etlevs/release-script-dep": "1.0.0",
-    "@etlevs/release-script-test": "1.0.0"
+    "@etlevs/release-script-dep": "0.9.9",
+    "@etlevs/release-script-test": "0.9.9"
   },
   "changesets": []
 }
