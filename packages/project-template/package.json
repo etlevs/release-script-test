@@ -1,0 +1,36 @@
+{
+  "name": "@svitejs/project-template",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "~~AUTHOR~~",
+  "private": true,
+  "type": "module",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "dev": "tsup-node --watch src",
+    "build": "tsup-node --dts",
+    "test": "tsm node_modules/uvu/bin.js tests"
+  },
+  "engines": {
+    "node": "^14.13.1 || ^16.0.0 || >= 18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svitejs/project-template.git",
+    "directory": "packages/project-template"
+  },
+  "bugs": {
+    "url": "https://github.com/svitejs/project-template/issues"
+  },
+  "homepage": "https://github.com/svitejs/project-template#readme",
+  "devDependencies": {
+    "uvu": "^0.5.6"
+  }
+}
