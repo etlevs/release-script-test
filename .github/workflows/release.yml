@@ -10,6 +10,8 @@ jobs:
     # prevents this action from running on forks
     if: github.repository == 'etlevs/release-script-test'
     name: Release
+    permissions:
+      pull-requests: write
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
