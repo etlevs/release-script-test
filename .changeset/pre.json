@@ -1,0 +1,9 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "@etlevs/release-script-dep": "1.0.0",
+    "@etlevs/release-script-test": "1.0.0"
+  },
+  "changesets": []
+}

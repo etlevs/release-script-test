@@ -1,9 +1,9 @@
 {
-  "name": "project-template-monorepo",
+  "name": "release-script-test-monorepo",
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "pnpm --dir packages/project-template dev",
+    "dev": "pnpm --dir packages/release-script-test dev",
     "build": "pnpm -r build",
     "test": "pnpm -r --workspace-concurrency=1 test",
     "lint": "eslint --cache --ignore-path .gitignore '**/*.{js,ts,svelte,html,svx,md}'",
@@ -12,8 +12,7 @@
     "format:fix": "pnpm run format --write",
     "fixup": "run-s lint:fix format:fix",
     "release": "pnpm run build && pnpm changeset publish",
-    "prepare": "husky install",
-    "setup": "node scripts/initial-setup.cjs"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@changesets/cli": "^2.25.2",
@@ -56,7 +55,7 @@
   },
   "pnpm": {
     "overrides": {
-      "@svitejs/project-template": "workspace:*"
+      "@etlevs/release-script-test": "workspace:*"
     }
   }
 }

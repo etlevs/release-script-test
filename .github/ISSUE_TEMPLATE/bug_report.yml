@@ -1,11 +1,11 @@
 name: "\U0001F41E Bug report"
-description: Report an issue with project-template
+description: Report an issue with release-script-test
 labels: ["bug", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for participating in project-template! Please check for existing reports before creating a new one.
+        Thank you for participating in release-script-test! Please check for existing reports before creating a new one.
   - type: textarea
     id: bug-description
     attributes:
@@ -32,7 +32,7 @@ body:
     id: system-info
     attributes:
       label: System Info
-      description: Output of `npx envinfo --system --binaries --browsers --npmPackages "{@svitejs/project-template}"`
+      description: Output of `npx envinfo --system --binaries --browsers --npmPackages "{@etlevs/release-script-test}"`
       render: shell
       placeholder: System, Binaries, Browsers
     validations:
@@ -45,6 +45,6 @@ body:
       options:
         - annoyance
         - blocking an upgrade
-        - blocking all usage of project-template
+        - blocking all usage of release-script-test
     validations:
       required: true

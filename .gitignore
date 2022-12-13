@@ -18,6 +18,7 @@ dist
 # node_modules and pnpm
 node_modules
 pnpm-lock.yaml
+!/pnpm-lock.yaml
 .pnpm-store
 
 # ide

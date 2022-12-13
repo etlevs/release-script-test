@@ -1,5 +1,5 @@
 name: "\U0001F680 Feature Request"
-description: Request a new project-template feature
+description: Request a new release-script-test feature
 labels: [enhancement, triage]
 body:
   - type: markdown
@@ -37,6 +37,6 @@ body:
       options:
         - nice to have
         - would make my life easier
-        - i cannot use project-template without it
+        - i cannot use release-script-test without it
     validations:
       required: true

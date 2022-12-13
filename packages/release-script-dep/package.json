@@ -1,9 +1,8 @@
 {
-  "name": "@svitejs/project-template",
-  "version": "0.0.0",
+  "name": "@etlevs/release-script-dep",
+  "version": "1.0.0",
   "license": "MIT",
-  "author": "~~AUTHOR~~",
-  "private": true,
+  "author": "dominikg",
   "type": "module",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,6 +11,9 @@
       "import": "./dist/index.js"
     },
     "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@etlevs/release-script-test": "workspace:*"
   },
   "scripts": {
     "dev": "tsup-node --watch src",
@@ -23,13 +25,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/svitejs/project-template.git",
-    "directory": "packages/project-template"
+    "url": "git+https://github.com/etlevs/release-script-test.git",
+    "directory": "packages/release-script-test"
   },
   "bugs": {
-    "url": "https://github.com/svitejs/project-template/issues"
+    "url": "https://github.com/etlevs/release-script-test/issues"
   },
-  "homepage": "https://github.com/svitejs/project-template#readme",
+  "homepage": "https://github.com/etlevs/release-script-test#readme",
   "devDependencies": {
     "uvu": "^0.5.6"
   }
