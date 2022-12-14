@@ -34,6 +34,6 @@
 	"homepage": "https://github.com/etlevs/release-script-test#readme",
 	"devDependencies": {
 		"uvu": "^0.5.6",
-		"@etlevs/release-script-test": "workspace:^*"
+		"@etlevs/release-script-test": "workspace:^"
 	}
 }
