@@ -26,7 +26,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/etlevs/release-script-test.git",
-    "directory": "packages/release-script-test"
+    "directory": "packages/release-script-dep"
   },
   "bugs": {
     "url": "https://github.com/etlevs/release-script-test/issues"
