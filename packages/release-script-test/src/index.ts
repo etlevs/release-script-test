@@ -1,2 +1,2 @@
 export const cool = '1';
-export const megacool = '2';
+export const megacool = '3';
