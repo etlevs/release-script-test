@@ -1,5 +1,11 @@
 # @etlevs/release-script-test
 
+## 1.1.0
+
+### Minor Changes
+
+- some new feat ([#4](https://github.com/etlevs/release-script-test/pull/4))
+
 ## 1.0.0
 
 ### Major Changes
