@@ -1,5 +1,11 @@
 # @etlevs/release-script-test
 
+## 1.2.0
+
+### Minor Changes
+
+- add megacool export ([#9](https://github.com/etlevs/release-script-test/pull/9))
+
 ## 1.1.0
 
 ### Minor Changes
