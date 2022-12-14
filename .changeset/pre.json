@@ -3,7 +3,10 @@
   "tag": "next",
   "initialVersions": {
     "@etlevs/release-script-dep": "0.9.9",
-    "@etlevs/release-script-test": "0.9.9"
+    "@etlevs/release-script-test": "0.9.9",
+    "chekit": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "lucky-mugs-cheer"
+  ]
 }
