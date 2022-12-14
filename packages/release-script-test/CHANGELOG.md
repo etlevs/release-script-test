@@ -1,5 +1,11 @@
 # @etlevs/release-script-test
 
+## 2.0.0
+
+### Major Changes
+
+- megacool is too cool to be 2, its at least 3 ([#13](https://github.com/etlevs/release-script-test/pull/13))
+
 ## 1.2.0
 
 ### Minor Changes
