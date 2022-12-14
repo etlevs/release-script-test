@@ -1,5 +1,11 @@
 # @etlevs/release-script-dep
 
+## 2.0.0
+
+### Major Changes
+
+- change to peerDep with workspace: ^\* selector ([#6](https://github.com/etlevs/release-script-test/pull/6))
+
 ## 1.0.1
 
 ### Patch Changes
