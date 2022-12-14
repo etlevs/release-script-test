@@ -1,5 +1,11 @@
 # @etlevs/release-script-dep
 
+## 2.0.1
+
+### Patch Changes
+
+- fix invalid workspace selector ([#10](https://github.com/etlevs/release-script-test/pull/10))
+
 ## 2.0.0
 
 ### Major Changes
