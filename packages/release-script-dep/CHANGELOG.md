@@ -1,5 +1,12 @@
 # @etlevs/release-script-dep
 
+## 1.0.1
+
+### Patch Changes
+
+- Updated dependencies [[`2d41fc8`](https://github.com/etlevs/release-script-test/commit/2d41fc8867b18468d00e9f024aae99a4482a3d25)]:
+  - @etlevs/release-script-test@1.1.0
+
 ## 1.0.0
 
 ### Major Changes
