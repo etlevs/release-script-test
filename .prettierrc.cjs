@@ -18,13 +18,6 @@ module.exports = {
 			options: {
 				requirePragma: true
 			}
-		},
-		{
-			files: '**/package.json',
-			options: {
-				useTabs: false,
-				tabWidth: 2
-			}
 		}
 	]
 };
